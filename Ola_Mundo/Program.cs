@@ -30,7 +30,15 @@ namespace Ola_Mundo
     {
         static void Main(string[] args)
         {
+            double x = 10.35784;
+            Console.WriteLine(x);
+            Console.WriteLine(x.ToString("F2"));
+            Console.WriteLine(x.ToString("F4"));
+            Console.WriteLine(x.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Olá Mundo!");
+            Console.WriteLine("Resultado = " + x);
+            Console.WriteLine("Resultado = " + x.ToString("F2"));
+            Console.WriteLine("Resultado = " + x.ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
@@ -43,3 +51,13 @@ Sem quebra de linha
     Console.Write("Olá ");
     Console.Write("Mundo!");
  */
+
+/*
+ Variável que aceita casas decimais, ou seja, pontos flutuantes do tipo Double.
+ */
+
+/*
+ Usamos o sinal de + para concatenar vários elementos em um mesmo comando de escrita.
+ */
+
+
